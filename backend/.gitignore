@@ -1,0 +1,6 @@
+raport.txt
+node_modules
+.env
+.eslintrc
+.prettierrc
+test.js

@@ -1,0 +1,48 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx babel-node ",
+    "start": "npx babel-watch src",
+    "babel-node": "babel-node --presets='@babel/preset-env '",
+    "refresh": " npx sequelize-cli db:migrate:undo:all && npx sequelize-cli db:migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Internship-codeus/backend2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Internship-codeus/backend2/issues"
+  },
+  "homepage": "https://github.com/Internship-codeus/backend2#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.7",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/register": "^7.14.5",
+    "@babel/runtime": "^7.14.8",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "eslint": "^7.31.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.6.3",
+    "prettier": "2.3.2",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
